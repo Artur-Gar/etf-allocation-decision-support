@@ -1,0 +1,146 @@
+country_or_region,indicator_name,series_id,unit,observations,median_gap_days,min_date,max_date,frequency_flag,is_usable_monthly,is_quarterly_fill_candidate
+Australia,Inflation,AUSCP010000GYQ,Percent,277,91.5,1956-01-01,2025-01-01,Quarterly-ish,False,True
+Australia,Interest Rate,IR3TIB01AUM156N,Percent,700,31.0,1968-01-01,2026-04-01,Monthly-ish,True,False
+Australia,USD Exchange Rate,CCUSMA02AUM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Australia,Unemployment,LRUNTTTTAUM156S,Percent,578,31.0,1978-02-01,2026-03-01,Monthly-ish,True,False
+Austria,Inflation,CPALTT01ATM657N,Percent,793,31.0,1958-02-01,2024-02-01,Monthly-ish,True,False
+Austria,Interest Rate,IR3TIB01ATM156N,Percent,443,31.0,1989-06-01,2026-04-01,Monthly-ish,True,False
+Austria,USD Exchange Rate,CCUSMA02ATM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Austria,Unemployment,AUTURHARMMDSMEI,Percent,232,31.0,1993-01-01,2012-04-01,Monthly-ish,True,False
+Belgium,Inflation,CPALTT01BEM657N,Percent,830,31.0,1955-02-01,2024-03-01,Monthly-ish,True,False
+Belgium,Interest Rate,IR3TIB01BEM156N,Percent,822,31.0,1957-11-01,2026-04-01,Monthly-ish,True,False
+Belgium,USD Exchange Rate,CCUSMA02BEM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Belgium,Unemployment,BELURHARMMDSMEI,Percent,508,31.0,1970-01-01,2012-04-01,Monthly-ish,True,False
+Brazil,Inflation,CPALTT01BRM657N,Percent,531,31.0,1980-01-01,2024-03-01,Monthly-ish,True,False
+Brazil,Interest Rate,BRALOCOSTNOSTSAM,Percent,327,31.0,1996-10-01,2023-12-01,Monthly-ish,True,False
+Brazil,USD Exchange Rate,CCUSMA02BRM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Brazil,Unemployment,LRUNTTTTBRM156S,Percent,419,31.0,1981-01-01,2015-11-01,Monthly-ish,True,False
+Canada,Inflation,CPALTT01CAM657N,Percent,1321,31.0,1914-02-01,2024-02-01,Monthly-ish,True,False
+Canada,Interest Rate,IR3TIB01CAM156N,Percent,844,31.0,1956-01-01,2026-04-01,Monthly-ish,True,False
+Canada,USD Exchange Rate,CCUSMA02CAM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Canada,Unemployment,LRUNTTTTCAM156S,Percent,856,31.0,1955-01-01,2026-04-01,Monthly-ish,True,False
+Chile,Inflation,CPALTT01CLM657N,Percent,647,31.0,1970-02-01,2023-12-01,Monthly-ish,True,False
+Chile,Interest Rate,IR3TIB01CLM156N,Percent,327,31.0,1997-07-01,2026-04-01,Monthly-ish,True,False
+Chile,USD Exchange Rate,CCUSMA02CLM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Chile,Unemployment,LRUNTTTTCLM156S,Percent,482,31.0,1986-01-01,2026-02-01,Monthly-ish,True,False
+China,Inflation,CPALTT01CNM657N,Percent,374,31.0,1993-02-01,2024-03-01,Monthly-ish,True,False
+China,Interest Rate,IR3TIB01CNM156N,Percent,345,31.0,1997-06-01,2026-03-01,Monthly-ish,True,False
+China,USD Exchange Rate,CCUSMA02CNM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+China,Unemployment,LMUNRRTTCNQ156S,Percent,35,91.0,2003-01-01,2011-07-01,Quarterly-ish,False,True
+Denmark,Inflation,CPALTT01DKM657N,Percent,687,31.0,1967-01-01,2024-03-01,Monthly-ish,True,False
+Denmark,Interest Rate,IR3TIB01DKM156N,Percent,469,31.0,1987-01-01,2026-01-01,Monthly-ish,True,False
+Denmark,USD Exchange Rate,CCUSMA02DKM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Denmark,Unemployment,DNKURHARMMDSMEI,Percent,364,31.0,1982-01-01,2012-04-01,Monthly-ish,True,False
+Finland,Inflation,CPALTT01FIM657N,Percent,829,31.0,1955-02-01,2024-02-01,Monthly-ish,True,False
+Finland,Interest Rate,IR3TIB01FIM156N,Percent,472,31.0,1987-01-01,2026-04-01,Monthly-ish,True,False
+Finland,USD Exchange Rate,CCUSMA02FIM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Finland,Unemployment,FINURHARMMDSMEI,Percent,580,31.0,1964-01-01,2012-04-01,Monthly-ish,True,False
+France,Inflation,CPALTT01FRM657N,Percent,829,31.0,1955-02-01,2024-02-01,Monthly-ish,True,False
+France,Interest Rate,IR3TIB01FRM156N,Percent,676,31.0,1970-01-01,2026-04-01,Monthly-ish,True,False
+France,USD Exchange Rate,CCUSMA02FRM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+France,Unemployment,FRAUR24NAA,Percent,43,365.0,1970-01-01,2012-01-01,Irregular / sparse,False,False
+Germany,Inflation,CPALTT01DEM657N,Percent,830,31.0,1955-02-01,2024-03-01,Monthly-ish,True,False
+Germany,Interest Rate,IR3TIB01DEM156N,Percent,796,31.0,1960-01-01,2026-04-01,Monthly-ish,True,False
+Germany,USD Exchange Rate,CCUSMA02DEM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Germany,Unemployment,DEUUR24NAA,Percent,43,365.0,1970-01-01,2012-01-01,Irregular / sparse,False,False
+Hong Kong,Inflation,DDOE01HKA086NWDB,Percent,38,365.0,1980-01-01,2017-01-01,Irregular / sparse,False,False
+Hong Kong,Unemployment,SLUEM1524ZSHKG,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+India,Inflation,CPALTT01INM657N,Percent,804,31.0,1957-02-01,2024-01-01,Monthly-ish,True,False
+India,Interest Rate,INDLOCOSTNOSTSAM,Percent,297,31.0,1999-04-01,2023-12-01,Monthly-ish,True,False
+India,USD Exchange Rate,CCUSMA02INM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+India,Unemployment,SLUEM1524ZSIND,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+Indonesia,Inflation,CPALTT01IDM657N,Percent,674,31.0,1968-02-01,2024-03-01,Monthly-ish,True,False
+Indonesia,Interest Rate,IR3TIB01IDM156N,Percent,336,31.0,1998-01-01,2025-12-01,Monthly-ish,True,False
+Indonesia,USD Exchange Rate,CCUSMA02IDM618N,Exchange Rate,712,31.0,1967-01-01,2026-04-01,Monthly-ish,True,False
+Indonesia,Unemployment,LRUNTTFEIDQ156N,Percent,3,183.0,2008-01-01,2009-01-01,Irregular / sparse,False,False
+Israel,Inflation,CPALTT01ILM657N,Percent,649,31.0,1970-02-01,2024-02-01,Monthly-ish,True,False
+Israel,Interest Rate,IR3TIB01ILM156N,Percent,412,31.0,1992-01-01,2026-04-01,Monthly-ish,True,False
+Israel,USD Exchange Rate,CCUSMA02ILM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Israel,Unemployment,LRUNTTTTILM156S,Percent,171,31.0,2012-01-01,2026-03-01,Monthly-ish,True,False
+Italy,Inflation,CPALTT01ITM657N,Percent,829,31.0,1955-02-01,2024-02-01,Monthly-ish,True,False
+Italy,Interest Rate,IR3TIB01ITM156N,Percent,571,31.0,1978-10-01,2026-04-01,Monthly-ish,True,False
+Italy,USD Exchange Rate,CCUSMA02ITM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Italy,Unemployment,ITAUR24NAA,Percent,43,365.0,1970-01-01,2012-01-01,Irregular / sparse,False,False
+Japan,Inflation,CPALTT01JPM657N,Percent,797,31.0,1955-02-01,2021-06-01,Monthly-ish,True,False
+Japan,Interest Rate,IR3TIB01JPM156N,Percent,288,31.0,2002-04-01,2026-03-01,Monthly-ish,True,False
+Japan,USD Exchange Rate,CCUSMA02JPM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Japan,Unemployment,LRUNTTTTJPM156S,Percent,855,31.0,1955-01-01,2026-03-01,Monthly-ish,True,False
+Kuwait,Inflation,DDOE01KWA086NWDB,Percent,46,365.0,1972-01-01,2017-01-01,Irregular / sparse,False,False
+Kuwait,Interest Rate,BRALOCOSTNOSTSAM,Percent,327,31.0,1996-10-01,2023-12-01,Monthly-ish,True,False
+Kuwait,USD Exchange Rate,FXRATEKWA618NUPN,Exchange Rate,61,365.0,1950-01-01,2010-01-01,Irregular / sparse,False,False
+Kuwait,Unemployment,SLUEM1524ZSKWT,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+Malaysia,Inflation,DDOE02MYA086NWDB,Percent,58,365.0,1960-01-01,2017-01-01,Irregular / sparse,False,False
+Malaysia,Interest Rate,BRALOCOSTNOSTSAM,Percent,327,31.0,1996-10-01,2023-12-01,Monthly-ish,True,False
+Malaysia,Unemployment,SLUEM1524ZSMYS,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+Mexico,Inflation,CPALTT01MXM657N,Percent,663,31.0,1969-01-01,2024-03-01,Monthly-ish,True,False
+Mexico,Interest Rate,IR3TIB01MXM156N,Percent,352,31.0,1997-01-01,2026-04-01,Monthly-ish,True,False
+Mexico,USD Exchange Rate,CCUSMA02MXM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Mexico,Unemployment,LRUNTTTTMXM156S,Percent,276,31.0,1987-01-01,2009-12-01,Monthly-ish,True,False
+Netherlands,Inflation,CPALTT01NLM657N,Percent,767,31.0,1960-04-01,2024-02-01,Monthly-ish,True,False
+Netherlands,Interest Rate,IR3TIB01NLM156N,Percent,532,31.0,1982-01-01,2026-04-01,Monthly-ish,True,False
+Netherlands,USD Exchange Rate,CCUSMA02NLM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Netherlands,Unemployment,LMUNRRTTNLM156S,Percent,268,31.0,1988-02-01,2010-05-01,Monthly-ish,True,False
+New Zealand,Inflation,CPALTT01NZQ659N,Percent,255,91.0,1960-01-01,2023-07-01,Quarterly-ish,False,True
+New Zealand,Interest Rate,IR3TIB01NZM156N,Percent,629,31.0,1973-12-01,2026-04-01,Monthly-ish,True,False
+New Zealand,USD Exchange Rate,CCUSMA02NZM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+New Zealand,Unemployment,LRHU24FENZQ156S,Percent,161,91.5,1986-01-01,2026-01-01,Quarterly-ish,False,True
+Norway,Inflation,CPALTT01NOM657N,Percent,830,31.0,1955-02-01,2024-03-01,Monthly-ish,True,False
+Norway,Interest Rate,IR3TIB01NOM156N,Percent,568,31.0,1979-01-01,2026-04-01,Monthly-ish,True,False
+Norway,USD Exchange Rate,CCUSMA02NOM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Norway,Unemployment,LMUNRRTTNOM156S,Percent,349,31.0,1995-01-01,2024-01-01,Monthly-ish,True,False
+Philippines,Inflation,DDOE02PHA086NWDB,Percent,58,365.0,1960-01-01,2017-01-01,Irregular / sparse,False,False
+Philippines,Interest Rate,BRALOCOSTNOSTSAM,Percent,327,31.0,1996-10-01,2023-12-01,Monthly-ish,True,False
+Philippines,USD Exchange Rate,FXRATEPHA618NUPN,Exchange Rate,61,365.0,1950-01-01,2010-01-01,Irregular / sparse,False,False
+Philippines,Unemployment,SLUEM1524ZSPHL,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+Poland,Inflation,CPALTT01PLM657N,Percent,422,31.0,1989-01-01,2024-02-01,Monthly-ish,True,False
+Poland,Interest Rate,IR3TIB01PLM156N,Percent,419,31.0,1991-06-01,2026-04-01,Monthly-ish,True,False
+Poland,USD Exchange Rate,CCUSMA02PLM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Poland,Unemployment,LMUNRRTTPLM156S,Percent,406,31.0,1990-01-01,2023-10-01,Monthly-ish,True,False
+Qatar,Inflation,DDOE02QAA086NWDB,Percent,39,365.0,1979-01-01,2017-01-01,Irregular / sparse,False,False
+Qatar,Interest Rate,BRALOCOSTNOSTSAM,Percent,327,31.0,1996-10-01,2023-12-01,Monthly-ish,True,False
+Qatar,USD Exchange Rate,FXRATEQAA618NUPN,Exchange Rate,45,365.0,1966-01-01,2010-01-01,Irregular / sparse,False,False
+Qatar,Unemployment,SLUEM1524ZSQAT,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+Saudi Arabia,Inflation,SAUCPALTT01GYM,Percent,351,31.0,1996-01-01,2025-03-01,Monthly-ish,True,False
+Saudi Arabia,USD Exchange Rate,FXRATESAA618NUPN,Exchange Rate,59,365.0,1952-01-01,2010-01-01,Irregular / sparse,False,False
+Saudi Arabia,Unemployment,SLUEM1524ZSSAU,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+Singapore,Inflation,DDOE02SGA086NWDB,Percent,58,365.0,1960-01-01,2017-01-01,Irregular / sparse,False,False
+Singapore,Interest Rate,BRALOCOSTNOSTSAM,Percent,327,31.0,1996-10-01,2023-12-01,Monthly-ish,True,False
+Singapore,Unemployment,SLUEM1524ZSSGP,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+South Africa,Inflation,CPALTT01ZAM657N,Percent,805,31.0,1957-02-01,2024-02-01,Monthly-ish,True,False
+South Africa,Interest Rate,IR3TIB01ZAM156N,Percent,545,31.0,1980-12-01,2026-04-01,Monthly-ish,True,False
+South Africa,USD Exchange Rate,CCUSMA02ZAM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+South Africa,Unemployment,LRUN24TTZAQ156S,Percent,72,91.0,2008-01-01,2025-10-01,Quarterly-ish,False,True
+South Korea,Inflation,CPALTT01KRM657N,Percent,711,31.0,1965-01-01,2024-03-01,Monthly-ish,True,False
+South Korea,Interest Rate,IR3TIB01KRM156N,Percent,424,31.0,1991-01-01,2026-04-01,Monthly-ish,True,False
+South Korea,USD Exchange Rate,CCUSMA02KRM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+South Korea,Unemployment,LRUNTTTTKRM156S,Percent,435,31.0,1990-01-01,2026-03-01,Monthly-ish,True,False
+Spain,Inflation,CPALTT01ESM657N,Percent,840,31.0,1954-04-01,2024-03-01,Monthly-ish,True,False
+Spain,Interest Rate,IR3TIB01ESM156N,Percent,592,31.0,1977-01-01,2026-04-01,Monthly-ish,True,False
+Spain,USD Exchange Rate,CCUSMA02ESM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Spain,Unemployment,ESPURHARMMDSMEI,Percent,412,31.0,1978-01-01,2012-04-01,Monthly-ish,True,False
+Sweden,Inflation,CPALTT01SEM657N,Percent,830,31.0,1955-02-01,2024-03-01,Monthly-ish,True,False
+Sweden,Interest Rate,IR3TIB01SEM156N,Percent,532,31.0,1982-01-01,2026-04-01,Monthly-ish,True,False
+Sweden,USD Exchange Rate,CCUSMA02SEM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Sweden,Unemployment,LRHU24FESEM156S,Percent,519,31.0,1983-01-01,2026-03-01,Monthly-ish,True,False
+Switzerland,Inflation,CPALTT01CHM657N,Percent,830,31.0,1955-02-01,2024-03-01,Monthly-ish,True,False
+Switzerland,Interest Rate,IR3TIB01CHM156N,Percent,322,31.0,1999-07-01,2026-04-01,Monthly-ish,True,False
+Switzerland,USD Exchange Rate,CCUSMA02CHM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Switzerland,Unemployment,CHEURHARMQDSMEI,Percent,148,91.0,1975-01-01,2011-10-01,Quarterly-ish,False,True
+Taiwan,Inflation,TWNPCPIPCPPPT,Percent,42,365.0,1990-01-01,2031-01-01,Irregular / sparse,False,False
+Taiwan,Interest Rate,BRALOCOSTNOSTSAM,Percent,327,31.0,1996-10-01,2023-12-01,Monthly-ish,True,False
+Taiwan,Unemployment,AEXTAUS,Percent,43,365.0,1983-01-01,2025-01-01,Irregular / sparse,False,False
+Thailand,Inflation,DDOE02THA086NWDB,Percent,58,365.0,1960-01-01,2017-01-01,Irregular / sparse,False,False
+Thailand,Interest Rate,BRALOCOSTNOSTSAM,Percent,327,31.0,1996-10-01,2023-12-01,Monthly-ish,True,False
+Thailand,USD Exchange Rate,FXRATETHA618NUPN,Exchange Rate,61,365.0,1950-01-01,2010-01-01,Irregular / sparse,False,False
+Thailand,Unemployment,SLUEM1524ZSTHA,Percent,35,365.0,1991-01-01,2025-01-01,Irregular / sparse,False,False
+Turkey,Inflation,CPALTT01TRM657N,Percent,830,31.0,1955-02-01,2024-03-01,Monthly-ish,True,False
+Turkey,Interest Rate,IR3TIB01TRM156N,Percent,133,31.0,1991-07-01,2008-04-01,Monthly-ish,True,False
+Turkey,USD Exchange Rate,CCUSMA02TRM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+Turkey,Unemployment,LRUPTTFETRQ156S,Percent,36,91.0,2006-01-01,2014-10-01,Quarterly-ish,False,True
+US,Inflation,CPALTT01USM657N,Percent,830,31.0,1955-02-01,2024-03-01,Monthly-ish,True,False
+US,Interest Rate,FEDFUNDS,Percent,863,31.0,1954-07-01,2026-05-01,Monthly-ish,True,False
+US,Unemployment,LRUNTTTTUSM156S,Percent,849,31.0,1955-01-01,2025-09-01,Monthly-ish,True,False
+United Kingdom,Inflation,CPALTT01GBM657N,Percent,829,31.0,1955-02-01,2024-02-01,Monthly-ish,True,False
+United Kingdom,Interest Rate,IR3TIB01GBM156N,Percent,829,31.0,1957-01-01,2026-01-01,Monthly-ish,True,False
+United Kingdom,USD Exchange Rate,CCUSMA02GBM618N,Exchange Rate,832,31.0,1957-01-01,2026-04-01,Monthly-ish,True,False
+United Kingdom,Unemployment,AURUKM,Percent,1944,31.0,1855-01-01,2016-12-01,Monthly-ish,True,False

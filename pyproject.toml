@@ -1,0 +1,62 @@
+[project]
+name = "business_intelligence"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Artur-Gar",email = "artur.gar.fin@gmail.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.4,<5.0.0",
+    "ipykernel>=6.29.5,<7.0.0",
+    "jinja2>=3.1.6,<4.0.0",
+    "openpyxl>=3.1.5,<4.0.0",
+    "openai>=1.93.2,<2.0.0",
+    "pandas>=2.3.0,<3.0.0",
+    "pytest>=8.4.1,<9.0.0",
+    "requests>=2.32.4,<3.0.0",
+    "scipy>=1.16.0,<2.0.0",
+    "tqdm>=4.67.1,<5.0.0",
+    "yfinance>=0.2.63,<0.3.0",
+    "tabpy (>=2.14.0,<3.0.0)",
+    "tabpy-client (>=0.2,<0.3)",
+    "numpy (>=2.4.6,<3.0.0)",
+]
+
+[project.scripts]
+bi-fetch-etfs = "gathering.etf_universe:main"
+bi-fetch-prices = "gathering.prices:main"
+bi-fetch-macro = "gathering.macro:main"
+bi-preprocess = "preprocessing.main:run_preprocessing"
+bi-classify-etfs = "llm.workflow:main"
+bi-build-relational-tableau = "tableau_relational:main"
+bi-build-portfolio-optimizer = "optimizer.precomputed:main"
+
+
+[tool.poetry]
+packages = [
+    { include = "config.py", from = "src" },
+    { include = "utils.py", from = "src" },
+    { include = "tableau_relational.py", from = "src" },
+    { include = "downloaders", from = "src" },
+    { include = "gathering", from = "src" },
+    { include = "llm", from = "src" },
+    { include = "optimizer", from = "src" },
+    { include = "preprocessing", from = "src" },
+    { include = "tableau_model", from = "src" },
+]
+include = ["src/llm/*.j2", "src/tableau_model/*.csv"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider --basetemp=.tmp/pytest"
+markers = [
+    "integration: tests that call the live OpenAI API",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+

@@ -1,0 +1,101 @@
+You are classifying ETFs from short fund metadata.
+
+Return exactly one JSON object with only these fields:
+- primary_region
+- developed_or_emerging
+- style_focus
+- sector_focus
+- confidence
+- reasoning_short
+
+Definitions and allowed values:
+
+1. primary_region
+- Meaning: the main geographic bucket or single-country label represented by the ETF.
+- Allowed values:
+  US, Europe, Japan, Emerging Markets, China, India, Latin America, Developed ex-US, Global, Global ex-US, Asia Pacific ex-Japan, Australia, Austria, Belgium, Brazil, Canada, Chile, Denmark, Finland, France, Germany, Hong Kong, Indonesia, Israel, Italy, Kuwait, Malaysia, Mexico, Netherlands, New Zealand, Norway, Philippines, Poland, Qatar, Saudi Arabia, Singapore, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, Thailand, Turkey, United Kingdom, Other, No information
+
+2. developed_or_emerging
+- Meaning: whether the ETF mainly targets developed markets, emerging markets, both, or frontier markets.
+- Allowed values:
+  Developed, Emerging, Mixed, Frontier, No information
+
+3. style_focus
+- Meaning: the main investing style implied by the ETF name and description.
+- Allowed values:
+  Core, Value, Growth, Momentum, Quality, Dividend, Low Volatility, Multi-Factor, ESG, Thematic, Other, No information
+
+4. sector_focus
+- Meaning: whether the ETF is broad market or intentionally concentrated in a sector or theme.
+- Allowed values:
+  Broad Market, Technology, Healthcare, Financials, Energy, Industrials, Consumer, Real Estate, Utilities, Thematic, Other, No information
+
+5. confidence
+- Meaning: a number from 0 to 1 showing how confident you are.
+
+6. reasoning_short
+- Meaning: one short sentence explaining the choice.
+
+Rules:
+- Use only the ETF input fields provided below.
+- If the ETF is a broad country, regional, or global equity ETF, classify style_focus as "Core" unless the name or description clearly says Value, Growth, Momentum, Quality, Dividend, Low Volatility, Multi-Factor, ESG, or Thematic.
+- If the ETF is broad market but has high exposure to one industry, still classify sector_focus as "Broad Market".
+- Use "Thematic" only when the ETF intentionally targets a theme such as clean energy, robotics, semiconductors, infrastructure, bitcoin, cybersecurity, or similar.
+- Prefer a specific primary_region label over "Other" when the country or region is identifiable.
+- Use "No information" only when the answer cannot be confidently determined from the provided fields.
+- Reasoning must be one short sentence.
+
+Few-shot examples:
+
+Example 1 input:
+{
+  "ticker": "AAXJ",
+  "etf_name": "iShares MSCI All Country Asia ex Japan ETF",
+  "provider": "iShares / BlackRock",
+  "description": "The fund seeks to track the investment results of an index composed of large- and mid-capitalization Asian equities, excluding Japan."
+}
+
+Example 1 broader interpretation:
+{
+  "geographic_scope": "Regional",
+  "primary_region": "Asia Pacific ex-Japan",
+  "developed_or_emerging": "Mixed",
+  "style_focus": "Core",
+  "size_focus": "Large/Mid Cap",
+  "sector_focus": "Broad Market",
+  "active_vs_index": "Index",
+  "confidence": 0.95,
+  "reasoning_short": "The ETF tracks a broad Asia ex-Japan large- and mid-cap equity index."
+}
+
+Example 2 input:
+{
+  "ticker": "IVW",
+  "etf_name": "iShares S&P 500 Growth ETF",
+  "provider": "iShares / BlackRock",
+  "description": "The fund seeks to track the investment results of an index composed of large-capitalization U.S. equities that exhibit growth characteristics."
+}
+
+Example 2 broader interpretation:
+{
+  "geographic_scope": "Single Country",
+  "primary_region": "US",
+  "developed_or_emerging": "Developed",
+  "style_focus": "Growth",
+  "size_focus": "Large Cap",
+  "sector_focus": "Broad Market",
+  "active_vs_index": "Index",
+  "confidence": 0.98,
+  "reasoning_short": "The ETF tracks large-cap U.S. equities with growth characteristics."
+}
+
+The two examples above show the broader ETF interpretation.
+For the real answer, return only the six required JSON fields and no extra keys.
+
+ETF to classify:
+{
+  "ticker": {{ ticker | tojson }},
+  "etf_name": {{ etf_name | tojson }},
+  "provider": {{ provider | tojson }},
+  "description": {{ description | tojson }}
+}
