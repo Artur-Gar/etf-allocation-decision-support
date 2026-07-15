@@ -10,7 +10,7 @@ The implementation combines Python-based data engineering, Tableau dashboards, a
 
 The optimization component should therefore be read as a structured allocation aid rather than a high-confidence forecasting engine. Given the well-known limits of mean-variance methods in predicting future market behavior, the main contribution of the project lies in building coherent dashboards and an analytically transparent workflow for ETF screening, comparison, and portfolio discussion.
 
-Full report: [docs/ETF_allocation_support_report.pdf](docs/ETF_allocation_support_report.pdf)
+**Full report**: [docs/ETF_allocation_support_report.pdf](docs/ETF_allocation_support_report.pdf)
 
 ## Key Techniques
 
@@ -57,32 +57,38 @@ The Portfolio Recommendation dashboard translates the previous screening and dia
 
 <img src="docs/figures/Dashboard 5 Portfolio.png" alt="Portfolio Recommendation" width="900">
 
+## Report
+
+Full paper available here:
+
+[docs/ETF_allocation_support_report.pdf](docs/ETF_allocation_support_report.pdf)
+
 ## Repository Structure
 
 ```text
 .
-|-- data/
-|   |-- raw/                  # Source datasets gathered from external providers
-|   `-- processed/            # Cleaned monthly tables used for analytics
-|-- docs/
-|   |-- ETF_allocation_support_report.pdf
-|   `-- figures/              # Dashboard screenshots used in the report and README
-|-- notebooks/                # Validation and exploratory notebooks
-|-- scripts/                  # Thin CLI wrappers for data and model workflows
-|-- src/
-|   |-- downloaders/          # Provider-specific download logic
-|   |-- gathering/            # CLI entry points for raw data collection
-|   |-- llm/                  # Optional ETF classification workflow
-|   |-- optimizer/            # Portfolio simulation and optimization logic
-|   |-- preprocessing/        # Monthly transformations and feature engineering
-|   |-- tableau_model/        # Tableau relational model builders
-|   |-- config.py
-|   |-- tableau_relational.py
-|   `-- utils.py
-|-- tableau_input/            # Tableau workbook and exported Excel inputs
-|-- tests/                    # Pipeline and integration tests
-|-- pyproject.toml
-`-- README.md
+├── data/
+│   ├── raw/                  # Source datasets gathered from external providers
+│   └── processed/            # Cleaned monthly tables used for analytics
+├── docs/
+│   ├── ETF_allocation_support_report.pdf
+│   └── figures/              # Dashboard screenshots used in the report and README
+├── notebooks/                # Validation and exploratory notebooks
+├── scripts/                  # Thin CLI wrappers for data and model workflows
+├── src/
+│   ├── downloaders/          # Provider-specific download logic
+│   ├── gathering/            # CLI entry points for raw data collection
+│   ├── llm/                  # Optional ETF classification workflow
+│   ├── optimizer/            # Portfolio simulation and optimization logic
+│   ├── preprocessing/        # Monthly transformations and feature engineering
+│   ├── tableau_model/        # Tableau relational model builders
+│   ├── config.py
+│   ├── tableau_relational.py
+│   └── utils.py
+├── tableau_input/            # Tableau workbook and exported Excel inputs
+├── tests/                    # Pipeline and integration tests
+├── pyproject.toml
+└── README.md
 ```
 
 ## Project Commands
